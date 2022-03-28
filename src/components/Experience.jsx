@@ -51,7 +51,6 @@ const Experience = () => {
                     <img className='w-20 mx-auto' src={GitHub} alt='html logo' />
                     <p className='my-4'>GitHub</p>
                 </div>
-                
             </div>
         </section>
     </div>
