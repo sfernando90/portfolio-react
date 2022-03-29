@@ -3,7 +3,7 @@ import WorkImg from '../assets/workImg.jpeg'
 import BlogImg from '../assets/blog_page_img.jpg'
 import CocktailImg from '../assets/cocktail.jpg'
 import CartImg from '../assets/cart.jpg'
-import GroceryImg from '../assets/cart.jpg'
+import GroceryImg from '../assets/grocery.jpg'
 import MenuImg from '../assets/menu.jpg'
 import ReviewsImg from '../assets/reviews.jpg'
 
