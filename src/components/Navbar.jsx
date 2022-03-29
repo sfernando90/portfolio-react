@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div style={{position: 'sticky'}} className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
-                <img src={ProfilePic} alt='logo' style={{width: '50px'}} />
+                <a href="/"><img src={ProfilePic} alt='logo' style={{width: '50px'}} /></a>
             </div>
             {/* menu */}
         
@@ -57,7 +57,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                        <a href="https://www.linkedin.com/in/fernando-serrano-a02a64156/" target="_blank" className='flex justify-between items-center w-full text-gray-300' rel="noreferrer">
+                        <a href="https://github.com/sfernando90" target="_blank" className='flex justify-between items-center w-full text-gray-300' rel="noreferrer">
                             Github <FaGithub size={30}/>
                         </a>
                     </li>

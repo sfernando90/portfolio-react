@@ -1,6 +1,11 @@
 import React from 'react'
 import WorkImg from '../assets/workImg.jpeg'
 import BlogImg from '../assets/blog_page_img.jpg'
+import CocktailImg from '../assets/cocktail.jpg'
+import CartImg from '../assets/cart.jpg'
+import GroceryImg from '../assets/cart.jpg'
+import MenuImg from '../assets/menu.jpg'
+import ReviewsImg from '../assets/reviews.jpg'
 
 const Projects = () => {
   return (
@@ -18,7 +23,7 @@ const Projects = () => {
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            Mean Stack Blog page
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='http://mean-angular-node-messaging.s3-website.us-east-2.amazonaws.com/' target="_blank" rel="noreferrer">
@@ -30,81 +35,81 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage:`url(${WorkImg})`}} 
+                <div style={{backgroundImage:`url(${CocktailImg})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            React Cocktail Finder
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/' target="_blank" rel="noreferrer">
+                            <a href='https://keen-elf-46e4d5.netlify.app/' target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/' target="_blank" rel="noreferrer">
+                            <a href='https://github.com/sfernando90/react-projects/tree/master/15-cocktails/setup' target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage:`url(${WorkImg})`}} 
+                <div style={{backgroundImage:`url(${CartImg})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            React Cart
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/' target="_blank" rel="noreferrer">
+                            <a href='https://glittering-kangaroo-803c1a.netlify.app/' target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/' target="_blank" rel="noreferrer">
+                            <a href='https://github.com/sfernando90/react-projects/tree/master/14-cart/setup' target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage:`url(${WorkImg})`}} 
+                <div style={{backgroundImage:`url(${GroceryImg})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            React Grocery List
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/' target="_blank" rel="noreferrer">
+                            <a href='https://rococo-pony-1c610c.netlify.app/' target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/' target="_blank" rel="noreferrer">
+                            <a href='https://github.com/sfernando90/react-projects/tree/master/10-grocery-bud/setup' target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage:`url(${WorkImg})`}} 
+                <div style={{backgroundImage:`url(${MenuImg})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            Restaurant Menu
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/' target="_blank" rel="noreferrer">
+                            <a href='https://sparkly-chimera-d0a9b1.netlify.app/' target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/' target="_blank" rel="noreferrer">
+                            <a href='https://github.com/sfernando90/react-projects/tree/master/05-menu/setup' target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage:`url(${WorkImg})`}} 
+                <div style={{backgroundImage:`url(${ReviewsImg})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            React Reviews Page
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/' target="_blank" rel="noreferrer">
+                            <a href='https://polite-fudge-aafbe4.netlify.app/' target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/' target="_blank" rel="noreferrer">
+                            <a href='https://github.com/sfernando90/react-projects/tree/master/03-reviews/setup' target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>

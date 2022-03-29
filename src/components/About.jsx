@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutMeImg from '../assets/about_me_img.jpg'
 
 const About = () => {
   return (
@@ -12,12 +13,23 @@ const About = () => {
                 </div>
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi. I'm Fernando...</p>
+                <div >
+                    <img src={AboutMeImg} alt="about me img" className='' />
                 </div>
                 <div>
-                    <p>
-                        I am passionate about building software...
+                    <p className=' text-4xl font-bold'>Hi. I'm Fernando</p>
+                    <p className='py-2'>
+                        I am a software developer living in Miami FL. I was born in Buenos Aires, Argentina and
+                        I've had a passion for technology for as long as I can remember.  
+                    </p>
+                    <p className='py-2'>
+                        I enjoy building websites and learning the latest technologies. I love that
+                        feeling of finding a faster, more efficient way of doing something or learning techniques to make a 
+                        website look and feel better for the user.
+                    </p>
+                    <p className='py-2'>
+                        My favorites passtimes are playing soccer, traveling and barbecues with friends. I like to 
+                        live life to the fullest and learn something new every day, my dream is to visit every country in the world.
                     </p>
                 </div>
             </div>
